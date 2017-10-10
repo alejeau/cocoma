@@ -9,6 +9,8 @@ from control.agent.RandomReactive import RandomReactive
 from control.agent.HighestIdleness import HighestIdleness
 from control.agent.RandCoordinated import RandCoordinated
 from control.agent.RandCoordinator import RandCoordinator
+from control.agent.HpccCoordinated import HpccCoordinated
+from control.agent.HpccCoordinator import HpccCoordinator
 
 
 class AgentTypes:
@@ -35,6 +37,12 @@ class AgentTypes:
     # RandCoordinator
     RndCtor = 6
 
+    # RandCoordinated
+    HpccCted = 7
+
+    # RandCoordinator
+    HpccCtor = 8
+
     # Heuristic Pathfinder Cognitive Coordinated
     # HPCC = 7
 
@@ -44,13 +52,16 @@ class AgentTypes:
                  "rcr": RCr,
                  "hi" : HI,
                  "rcted" : RndCted,
-                 "rctor" : RndCtor
+                 "rctor" : RndCtor,
+                 "hpccd" : HpccCted,
+                 "hpccr" : HpccCtor
                  # "hpcc": HPCC
                  }
 
     id_to_class_name = [RandomReactive, RandomReactive, RandomCoordinated,
                         RandomCoordinator,
                         HighestIdleness,
-                        RandCoordinated, RandCoordinator
+                        RandCoordinated, RandCoordinator,
+                        HpccCoordinated, HpccCoordinator
                         # , HPCC
                         ]

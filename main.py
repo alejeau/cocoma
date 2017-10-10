@@ -14,11 +14,11 @@ from util.net.SimulatedConnection import SimulatedConnection
 # config_path = "various/sim_materials/configs/cr--soc_0_10-0.json"
 # log_path = "various/sim_materials/configs/cr--soc_0_10-0.log.json"
 
-config_path = Paths.Configs + "islands/rcted/10/rcted-islands-soc_0-10-0.json"
-log_path = Paths.Logs + "islands/rcted/10/rcted-islands-soc_0-10-0.log.json"
+config_path = Paths.Configs + "islands/hpcc/10/hpcc-islands-soc_0-10-0.json"
+log_path = Paths.Logs + "islands/hpcc/10/hpcc-islands-soc_0-10-0.log.json"
 
 
-cycle_number = 3000 # was 3000
+cycle_number = 1 # was 3000
 depth = 3
 
 ar_cnn = SimulatedConnection()
