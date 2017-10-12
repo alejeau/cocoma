@@ -12,3 +12,12 @@ share/
 ssl/
 x86_64-conda_cos6-linux-gnu/
 
+
+control/__pycache__/
+control/agent/__pycache__/
+model/__pycache__/
+model/action/__pycache__/
+model/knowledge/__pycache__/
+model/space/__pycache__/
+util/__pycache__/
+
