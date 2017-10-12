@@ -2,3 +2,13 @@ __pycache__/
 
 .idea/
 logs/*.json
+
+bin/
+compiler_compat/
+conda-meta/
+include/
+lib/
+share/
+ssl/
+x86_64-conda_cos6-linux-gnu/
+
